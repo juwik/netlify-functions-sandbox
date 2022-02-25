@@ -19,7 +19,7 @@ exports.handler = async (event) => {
   }
   const { login, password } = JSON.parse(event.body);
 
-  const isLogged = login === "a" && password === "a";
+  const isLogged = login === "007" && password === "asd";
 
   return {
     statusCode: 200,
